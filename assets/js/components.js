@@ -201,3 +201,18 @@ if (footer) {
     footer.innerHTML += footerContent;
 }
 });
+
+
+function addAutoVersionToScriptsAndStyles() {
+    var resources = document.querySelectorAll('script[src$=".js"], link[href$=".css"]');
+    var version = Date.now(); // Use current timestamp as version
+
+    resources.forEach(function(resource) {
+        var src = resource.getAttribute('src') || resource.getAttribute('href');
+        src += (src.indexOf('?') === -1 ? '?' : '&') + 'v=' + version;
+        resource.setAttribute('src', src);
+    });
+}
+
+// Call the function when the page loads
+window.onload = addAutoVersionToScriptsAndStyles;
