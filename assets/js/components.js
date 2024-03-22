@@ -16,99 +16,24 @@ var headerContent = `
                     <nav>
                         <ul class="navbar-nav" id="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link " href="/"  aria-expanded="false">
                                     Home
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li>
-                                        <a class="dropdown-item" href="index.html">Homepage 1</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-2.html">Homepage 2</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-3.html">Homepage 3</a>
-                                    </li>
-                                </ul>
+                               
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="index.html#about">About</a>
+                                <a class="nav-link scroll" href="about.html">About</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Services</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="services.html">Our Services</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="service-details.html">Single Service</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Projects</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="project.html">Our Projects</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="project-details.html">Single Project</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="about.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="reviews.html">Reviews</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item disabled" href="index.html#">More Coming Soon</a>
-                                    </li>
-                                </ul>
-                            </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="index.html#services">Services</a>
+                                <a class="nav-link scroll" href="services.html">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="index.html#portfolio">Our Work</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li>
-                                        <a class="dropdown-item" href="blog-two-column.html">Blog- 2 Column</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-three-column.html">Blog- 3 Column</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-left-sidebar.html">Blog- Left Sidebar</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-right-sidebar.html">Blog- Right Sidebar</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-details-left-sidebar.html">Blog Details- Left Sidebar</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="blog-details-right-sidebar.html">Blog Details- Right Sidebar</a>
-                                    </li>
-                                </ul>
-                            </li>
+                           
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="index.html#contact">Contact</a>
+                                <a class="nav-link scroll" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -136,7 +61,7 @@ var footerContent = `
         <div class="col-12 col-md-4 footer-sec">
             <!-- Contact Us -->
             <div class="footer-content contact-us">
-                <p class="mb-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p class="mb-2">Stay secure with MVF. Your trusted partner for cutting-edge security and IT solutions. Contact us today for peace of mind</p>
                 <ul>
                     <li class="py-1">
                         <a class="d-flex align-items-center" href="index.html#">
