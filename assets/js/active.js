@@ -3,7 +3,45 @@
 
     var $window = $(window);
     var zero = 0;
+// :: 2.0 NAVIGATION MENU ACTIVE CODE
+function navMenu() {
 
+    // MAIN MENU TOGGLER ICON (MOBILE SITE ONLY)
+    $('[data-toggle="navbarToggler"]').on('click', function () {
+        $('.navbar').toggleClass('active');
+        $('body').toggleClass('canvas-open');
+    });
+    // MAIN MENU TOGGLER ICON
+    $('.navbar-toggler').on('click', function () {
+        $('.navbar-toggler-icon').toggleClass('active');
+    });
+
+    // NAVBAR STICKY
+    var $stickyNav = $(".navbar-sticky");
+
+    $(window).on("scroll load", function () {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 120) {
+            $stickyNav.addClass("navbar-sticky-moved-up");
+        } else {
+            $stickyNav.removeClass("navbar-sticky-moved-up");
+        }
+        // apply transition
+        if (scroll >= 250) {
+            $stickyNav.addClass("navbar-sticky-transitioned");
+        } else {
+            $stickyNav.removeClass("navbar-sticky-transitioned");
+        }
+        // sticky on
+        if (scroll >= 500) {
+            $stickyNav.addClass("navbar-sticky-on");
+        } else {
+            $stickyNav.removeClass("navbar-sticky-on");
+        }
+
+    });
+}
+navMenu();
     // :: 1.0 PRELOADER ACTIVE CODE
     $window.on('load', function () {
         $('#loader-wrapper').fadeOut('slow', function () {
@@ -11,45 +49,7 @@
         });
     });
 
-    // :: 2.0 NAVIGATION MENU ACTIVE CODE
-    function navMenu() {
-
-        // MAIN MENU TOGGLER ICON (MOBILE SITE ONLY)
-        $('[data-toggle="navbarToggler"]').on('click', function () {
-            $('.navbar').toggleClass('active');
-            $('body').toggleClass('canvas-open');
-        });
-        // MAIN MENU TOGGLER ICON
-        $('.navbar-toggler').on('click', function () {
-            $('.navbar-toggler-icon').toggleClass('active');
-        });
-
-        // NAVBAR STICKY
-        var $stickyNav = $(".navbar-sticky");
-
-        $(window).on("scroll load", function () {
-            var scroll = $(window).scrollTop();
-            if (scroll >= 120) {
-                $stickyNav.addClass("navbar-sticky-moved-up");
-            } else {
-                $stickyNav.removeClass("navbar-sticky-moved-up");
-            }
-            // apply transition
-            if (scroll >= 250) {
-                $stickyNav.addClass("navbar-sticky-transitioned");
-            } else {
-                $stickyNav.removeClass("navbar-sticky-transitioned");
-            }
-            // sticky on
-            if (scroll >= 500) {
-                $stickyNav.addClass("navbar-sticky-on");
-            } else {
-                $stickyNav.removeClass("navbar-sticky-on");
-            }
-
-        });
-    }
-    navMenu();
+    
 
     // :: 3.0 SCROLL TO TOP ACTIVE CODE
     var offset = 300;
@@ -220,5 +220,6 @@
     });
 
 }(jQuery));
+
 
 

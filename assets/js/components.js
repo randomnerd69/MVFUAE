@@ -41,9 +41,6 @@ var headerContent = `
             </div>
 `;
 
-// Wait for the DOM content to be loaded
-document.addEventListener("DOMContentLoaded", function() {
-// Find the header tag in the document
 var header = document.querySelector("header");
 
 // Check if header tag exists
@@ -51,7 +48,6 @@ if (header) {
     // Append the HTML content to the header using innerHTML
     header.innerHTML += headerContent;
 }
-});
 
 
 var footerContent = `
@@ -216,3 +212,18 @@ function addAutoVersionToScriptsAndStyles() {
 
 // Call the function when the page loads
 window.onload = addAutoVersionToScriptsAndStyles;
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Wait for the DOM content to be fully loaded
+
+    // Get the button element with the class "navbar-toggler"
+    var navbarTogglerButton = document.querySelector(".navbar-toggler");
+
+    // Add a click event listener to the button
+    navbarTogglerButton.addEventListener("click", function() {
+        // Log out a sentence when the button is clicked
+        console.log("Navbar toggler button clicked!");
+    });
+});
