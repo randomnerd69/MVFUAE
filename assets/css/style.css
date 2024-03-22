@@ -267,7 +267,10 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.feature-img i{
+    font-size: 4rem;
+    color: #23b3b8  ;
+}
 .dsp-tc {
     display: table-cell;
     vertical-align: middle;
@@ -551,12 +554,12 @@ img {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #0F4C81;
-    border: 1px solid #0F4C81;
+    background-color: #23b3b8;
+    border: 1px solid #23b3b8;
     border-radius: .3rem;
     overflow: hidden;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0F4C81), color-stop(10%, #175C98), color-stop(80%, #175C98), to(#0F4C81));
-    background-image: linear-gradient(to right, #0F4C81 0%, #175C98 10%, #175C98 80%, #0F4C81 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#23b3b8), color-stop(10%, #1b9094), color-stop(80%, #1b9094), to(#1b9094));
+    background-image: linear-gradient(to right, #1b9094 0%, #23b3b8 10%, #1b9094 80%, #1b9094 100%);
     background-repeat: no-repeat;
     background-size: 10% 100%;
     background-position: -100% center;
@@ -567,7 +570,7 @@ img {
 .btn:active,
 .btn:hover {
     color: #fff;
-    border-color: #0F4C81;
+    border-color: #aad4da;
     -webkit-box-shadow: 0.2rem 0.1rem 1.2rem rgba(91, 91, 91, 0.5);
     box-shadow: 0.2rem 0.1rem 1.2rem rgba(91, 91, 91, 0.5);
     background-size: 150% 100%;
@@ -1048,7 +1051,10 @@ img {
 .navbar-sticky-on .navbar-brand-regular {
     display: none;
 }
-
+.navbar-brand img{
+    max-width: 60px;
+    padding: 10px;
+}
 .navbar-sticky-on .navbar-brand-sticky {
     display: inline;
 }
