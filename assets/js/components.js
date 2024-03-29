@@ -22,18 +22,18 @@ var headerContent = `
                                
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="about.html">About</a>
+                                <a class="nav-link" href="about.html">About</a>
                             </li>
                             
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="services.html">Services</a>
+                                <a class="nav-link" href="services.html">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="index.html#portfolio">Our Work</a>
+                                <a class="nav-link" href="index.html#portfolio">Our Work</a>
                             </li>
                            
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </nav>
