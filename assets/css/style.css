@@ -794,7 +794,9 @@ img {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     z-index: -1;
 }
-
+.servicecol{
+    gap: 30px 0px;
+}
 .overlay-dark:after {
     position: absolute;
     content: "";
