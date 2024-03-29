@@ -16,7 +16,7 @@ var headerContent = `
                     <nav>
                         <ul class="navbar-nav" id="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link " href="/"  aria-expanded="false">
+                                <a class="nav-link " href="index.html"  aria-expanded="false">
                                     Home
                                 </a>
                                
