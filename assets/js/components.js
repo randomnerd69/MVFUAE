@@ -199,19 +199,17 @@ if (footer) {
 });
 
 
-function addAutoVersionToScriptsAndStyles() {
-    var resources = document.querySelectorAll('script[src$=".js"], link[href$=".css"]');
-    var version = Date.now(); // Use current timestamp as version
+function addVersionToResources() {
+    var links = document.querySelectorAll('link[rel="stylesheet"], script[src]');
 
-    resources.forEach(function(resource) {
-        var src = resource.getAttribute('src') || resource.getAttribute('href');
-        src += (src.indexOf('?') === -1 ? '?' : '&') + 'v=' + version;
-        resource.setAttribute('src', src);
+    links.forEach(function(link) {
+        var href = link.href || link.src;
+        link.href = href + '?v=' + new Date().getTime();
     });
 }
 
 // Call the function when the page loads
-window.onload = addAutoVersionToScriptsAndStyles;
+window.onload = addVersionToResources;
 
 
 
