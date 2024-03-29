@@ -797,8 +797,11 @@ img {
     z-index: -1;
 }
 .servicecol{
-    gap: 30px 0px;
+   row-gap: 30px;
+    display: flex;
+    justify-content: center;
 }
+
 .overlay-dark:after {
     position: absolute;
     content: "";
@@ -1258,6 +1261,12 @@ img {
 @media (max-width: 767px) {
     .carousel-item > img {
         min-height: 600px;
+    }
+    .servicecol{
+        row-gap: 20px !important;
+    }
+    .servitem{
+        margin-bottom: 0px !important;
     }
 }
 
