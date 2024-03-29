@@ -800,7 +800,7 @@ img {
     content: "";
     height: 100%;
     width: 100%;
-    background-color: #2e3243;
+    background-color: #2e324396;
     top: 0;
     left: 0;
     right: 0;
@@ -1018,6 +1018,12 @@ img {
 
 #scrollUp:hover {
     background-color: #666;
+}
+.max-content{
+    height: max-content !Important;
+}
+.icon-bot{
+    font-size: 28px;
 }
 
 /* ******************************
@@ -2269,9 +2275,9 @@ img {
     border: 0;
     padding: 0 20px;
     border: none;
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
     -webkit-transition: 1s;
     transition: 1s;
 }
@@ -2284,9 +2290,10 @@ img {
     border: none;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0;
+    border-radius: 6px;
     -webkit-transition: 1s;
     transition: 1s;
+    resize: none;
 }
 
 .contact-box .form-group input[placeholder],
