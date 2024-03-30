@@ -44,11 +44,12 @@ function navMenu() {
 navMenu();
     // :: 1.0 PRELOADER ACTIVE CODE
     $window.on('load', function () {
-        $('#loader-wrapper').fadeOut('slow', function () {
-            $(this).remove();
-        });
+        setTimeout(function() {
+            $('#loader-wrapper').fadeOut('slow', function () {
+                $(this).remove();
+            });
+        }, 1000); // 1000 milliseconds = 1 second
     });
-
     
 
     // :: 3.0 SCROLL TO TOP ACTIVE CODE
