@@ -545,3 +545,11 @@
         padding-top: 15px;
     }
 }
+
+
+
+
+html {
+    visibility: visible;
+    opacity: 1;
+}
