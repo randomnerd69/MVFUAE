@@ -37,17 +37,19 @@
 <style>
     body{
         visibility: hidden;
+        opacity: 0;
     }
 </style>
+<div style="z-index: 9999999 !important; position: fixed; background: white;" id="loader-wrapper">
+    <!-- Loader -->
+    <div class="loader-cont">
+        <img src="" alt="">
+    </div>
+</div>
     <body onload="document.body.style.visibility=`visible`;">
        
         <!--====== Preloader Area Start ======-->
-        <div style="z-index: 9999999 !important;" id="loader-wrapper">
-            <!-- Loader -->
-            <div class="loader-cont">
-                <img src="" alt="">
-            </div>
-        </div>
+        
         <!--====== Preloader Area End ======-->
 
         <!--====== Scroll To Top Area Start ======-->

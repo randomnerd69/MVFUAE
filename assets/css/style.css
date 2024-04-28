@@ -60,6 +60,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -72,6 +73,7 @@ body {
 }
 html{
     scroll-behavior: smooth;
+   
 }
 .container {
     width: 100%;
@@ -916,7 +918,7 @@ img {
 .loader-cont {
     width: 50px;
     aspect-ratio: 1;
-    --c:no-repeat radial-gradient(farthest-side,#aad4da 92%,#0000);
+    --c:no-repeat radial-gradient(farthest-side,#23b3b8 92%,#0000);
     background: 
       var(--c) 50%  0, 
       var(--c) 50%  100%, 
@@ -931,7 +933,7 @@ img {
     position: absolute;
     inset:0;
     margin: 3px;
-    background: repeating-conic-gradient(#0000 0 35deg,#aad4da 0 90deg);
+    background: repeating-conic-gradient(#0000 0 35deg,#23b3b8 0 90deg);
     -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 3px),#000 0);
     border-radius: 50%;
   }
