@@ -70,6 +70,7 @@ body {
     font-weight: 400;
     color: #4c5462;
     position: relative;
+    transition: visibility 0.5s ease; /* Add transition effect */
     
 }
 html{
@@ -1035,7 +1036,9 @@ img {
 .icon-bot{
     font-size: 28px;
 }
-
+.main{
+    transition: all 500ms ease;
+}
 /* ******************************
 :: 7.0 HEADER AREA CSS
 ****************************** */
@@ -2550,7 +2553,4 @@ img {
     .pantone-color-area .color-box {
         margin-top: 3rem;
     }
-}
-body{
-    opacity: 1 !important;
 }
