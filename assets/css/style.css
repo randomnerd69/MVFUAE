@@ -70,6 +70,7 @@ body {
     font-weight: 400;
     color: #4c5462;
     position: relative;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -2549,4 +2550,7 @@ img {
     .pantone-color-area .color-box {
         margin-top: 3rem;
     }
+}
+body{
+    opacity: 1 !important;
 }
