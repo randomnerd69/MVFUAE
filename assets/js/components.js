@@ -64,7 +64,7 @@ var footerContent = `
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-home"></i>
                             </div>
-                            <span>Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002</span>
+                            <span></span>
                         </a>
                     </li>
                     <li class="py-1">
@@ -80,7 +80,7 @@ var footerContent = `
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-envelope"></i>
                             </div>
-                            <span>exampledomain@domain.com</span>
+                            <span>project@mvfuae.com</span>
                         </a>
                     </li>
                 </ul>
@@ -88,10 +88,9 @@ var footerContent = `
         </div>
         <div class="col-12 col-md-4 footer-sec">
             <!-- Footer Title -->
-            <div class="footer-title">
+            <!-- <div class="footer-title">
                 <h3 class="d-inline-block mb-4">Popular Tags</h3>
             </div>
-            <!-- Tags Widget Items -->
             <div class="widget-content tags-widget-items">
                 <a href="index.html#" class="d-inline-block px-2 py-1 mt-2 mr-1">Corbus</a>
                 <a href="index.html#" class="d-inline-block px-2 py-1 mt-2 mr-1">Bootstrap</a>
@@ -105,9 +104,9 @@ var footerContent = `
                 <a href="index.html#" class="d-inline-block px-2 py-1 mt-2 mr-1">Wordpress</a>
                 <a href="index.html#" class="d-inline-block px-2 py-1 mt-2 mr-1">Web Design</a>
                 <a href="index.html#" class="d-inline-block px-2 py-1 mt-2 mr-1">Marketing</a>
-            </div>
+            </div> -->
             <!-- Footer Title -->
-            <div class="footer-title mt-4">
+            <div class="footer-title ">
                 <h3 class="d-inline-block mb-4">Follow Us</h3>
             </div>
             <!-- Follow Us -->

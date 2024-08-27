@@ -325,7 +325,11 @@ img {
 .color-secondary {
     color: #444;
 }
-
+.social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .feature-icon {
     position: relative;
     height: 100px;
