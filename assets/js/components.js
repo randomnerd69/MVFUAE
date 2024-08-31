@@ -68,15 +68,15 @@ var footerContent = `
                         </a>
                     </li>
                     <li class="py-1">
-                        <a class="d-flex align-items-center" href="index.html#">
+                        <a class="d-flex align-items-center" href="">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-phone-alt"></i>
                             </div>
-                            <span>+1 230 456 789-012 345 6789</span>
+                            <span>+971 585870275 <br> +971 585898275 </span>
                         </a>
                     </li>
                     <li class="py-1">
-                        <a class="d-flex align-items-center" href="index.html#">
+                        <a class="d-flex align-items-center" href="mailto:project@mvfuae.com">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-envelope"></i>
                             </div>
