@@ -873,9 +873,11 @@ img {
 .breadcrumb-area {
     background: rgba(0, 0, 0, 0) url("../img/bg/welcome-thumb.jpg") no-repeat fixed center center / cover;
 }
-
+.single-review, .reviewer {
+    height: 100%;
+}
 .about .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url("../img/blog/blog-6.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/blog/blog-5.jpg") no-repeat fixed center center / cover;
 }
 
 .project .breadcrumb-area {

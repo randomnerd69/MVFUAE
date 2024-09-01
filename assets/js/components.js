@@ -28,9 +28,7 @@ var headerContent = `
                             <li class="nav-item">
                                 <a class="nav-link" href="services.html">Services</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#portfolio">Our Work</a>
-                            </li>
+                           
                            
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -45,29 +43,42 @@ var header = document.querySelector("header");
 
 // Check if header tag exists
 if (header) {
-    // Append the HTML content to the header using innerHTML
-    header.innerHTML += headerContent;
+	// Append the HTML content to the header using innerHTML
+	header.innerHTML += headerContent;
 }
-
 
 var footerContent = `
 <div class="footer-main ptb_100">
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-4 footer-sec">
+            <div class="footer-title">
+                <h3 class="d-inline-block mb-4">MVF Security</h3>
+            </div>
             <!-- Contact Us -->
             <div class="footer-content contact-us">
                 <p class="mb-2">Stay secure with MVF. Your trusted partner for cutting-edge security and IT solutions. Contact us today for peace of mind</p>
+               
+            </div>
+        </div>
+        <div class="col-12 col-md-4 footer-sec">
+            <!-- Footer Title -->
+            <div class="footer-title">
+                <h3 class="d-inline-block mb-4">Contact Us</h3>
+            </div>
+            <!-- Latest News -->
+            <div class="footer-content latest-news">
                 <ul>
                     <li class="py-1">
                         <a class="d-flex align-items-center" href="index.html#">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-home"></i>
                             </div>
-                            <span></span>
+                            <span>MVF Security Equipment Installation & Maintenace LLC <br>
+                            Office No: OFF4 - 0102, Dubai - UAE</span>
                         </a>
                     </li>
-                    <li class="py-1">
+                    <li class="py-3">
                         <a class="d-flex align-items-center" href="">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-phone-alt"></i>
@@ -75,7 +86,7 @@ var footerContent = `
                             <span>+971 585870275 <br> +971 585898275 </span>
                         </a>
                     </li>
-                    <li class="py-1">
+                    <li class="py-3">
                         <a class="d-flex align-items-center" href="mailto:project@mvfuae.com">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-envelope"></i>
@@ -125,53 +136,7 @@ var footerContent = `
                 </a>
             </div>
         </div>
-        <div class="col-12 col-md-4 footer-sec">
-            <!-- Footer Title -->
-            <div class="footer-title">
-                <h3 class="d-inline-block mb-4">Latest News</h3>
-            </div>
-            <!-- Latest News -->
-            <div class="footer-content latest-news">
-                <ul>
-                    <li class="py-2">
-                        <!-- Single News -->
-                        <div class="single-news media">
-                            <!-- News Thumb -->
-                            <div class="news-thumb">
-                                <img class="avatar-lg rounded-lg" src="assets/img/blog/blog-4.jpg" alt="">
-                            </div>
-                            <!-- News Content -->
-                            <div class="news-content media-body align-self-center pl-3">
-                                <p class="pb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                <!-- Meta Info -->
-                                <div class="meta-info d-flex flex-wrap">
-                                    <a class="pr-2" href="index.html#">19 January, 2020</a>
-                                    <a class="px-2" href="index.html#"><i class="fas fa-comments pr-2"></i>05</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="py-2">
-                        <!-- Single News -->
-                        <div class="single-news media">
-                            <!-- News Thumb -->
-                            <div class="news-thumb">
-                                <img class="avatar-lg rounded-lg" src="assets/img/blog/blog-4.jpg" alt="">
-                            </div>
-                            <!-- News Content -->
-                            <div class="news-content media-body align-self-center pl-3">
-                                <p class="pb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                <!-- Meta Info -->
-                                <div class="meta-info d-flex flex-wrap">
-                                    <a class="pr-2" href="index.html#">19 January, 2020</a>
-                                    <a class="px-2" href="index.html#"><i class="fas fa-comments pr-2"></i>19</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+       
     </div>
 </div>
 </div>
@@ -186,41 +151,38 @@ var footerContent = `
 `;
 
 // Wait for the DOM content to be loaded
-document.addEventListener("DOMContentLoaded", function() {
-// Find the header tag in the document
-var footer = document.querySelector("footer");
+document.addEventListener("DOMContentLoaded", function () {
+	// Find the header tag in the document
+	var footer = document.querySelector("footer");
 
-// Check if header tag exists
-if (footer) {
-    // Append the HTML content to the header using innerHTML
-    footer.innerHTML += footerContent;
-}
+	// Check if header tag exists
+	if (footer) {
+		// Append the HTML content to the header using innerHTML
+		footer.innerHTML += footerContent;
+	}
 });
 
-
 function addVersionToResources() {
-    var links = document.querySelectorAll('link[rel="stylesheet"], script[src]');
+	var links = document.querySelectorAll('link[rel="stylesheet"], script[src]');
 
-    links.forEach(function(link) {
-        var href = link.href || link.src;
-        link.href = href + '?v=' + new Date().getTime();
-    });
+	links.forEach(function (link) {
+		var href = link.href || link.src;
+		link.href = href + "?v=" + new Date().getTime();
+	});
 }
 
 // Call the function when the page loads
 window.onload = addVersionToResources;
 
+document.addEventListener("DOMContentLoaded", function () {
+	// Wait for the DOM content to be fully loaded
 
+	// Get the button element with the class "navbar-toggler"
+	var navbarTogglerButton = document.querySelector(".navbar-toggler");
 
-document.addEventListener("DOMContentLoaded", function() {
-    // Wait for the DOM content to be fully loaded
-
-    // Get the button element with the class "navbar-toggler"
-    var navbarTogglerButton = document.querySelector(".navbar-toggler");
-
-    // Add a click event listener to the button
-    navbarTogglerButton.addEventListener("click", function() {
-        // Log out a sentence when the button is clicked
-        console.log("Navbar toggler button clicked!");
-    });
+	// Add a click event listener to the button
+	navbarTogglerButton.addEventListener("click", function () {
+		// Log out a sentence when the button is clicked
+		console.log("Navbar toggler button clicked!");
+	});
 });
