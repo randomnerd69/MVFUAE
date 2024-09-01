@@ -40,15 +40,17 @@
 		<link rel="stylesheet" href="assets/css/responsive.css" />
 		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	</head>
-
+	<div
+	style="z-index: 9999999 !important; position: fixed; background: white"
+	id="loader-wrapper">
+	<!-- Loader -->
+	<div class="loader-cont">
+		<img src="" alt="" />
+	</div>
+</div>
 	<body>
 		<!--====== Preloader Area Start ======-->
-		<div id="loader-wrapper">
-			<!-- Loader -->
-			<div class="loader-cont">
-				<img src="" alt="" />
-			</div>
-		</div>
+	
 		<!--====== Preloader Area End ======-->
 
 		<!--====== Scroll To Top Area Start ======-->
@@ -57,7 +59,7 @@
 		</div>
 		<!--====== Scroll To Top Area End ======-->
 
-		<div class="main">
+		<div class="main" style="visibility: hidden;">
 			<!-- ***** Header Start ***** -->
 			<header
 				class="navbar navbar-sticky navbar-expand-lg navbar-dark"></header>
