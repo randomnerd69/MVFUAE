@@ -29,7 +29,7 @@
 		<!-- ***** All CSS Files ***** -->
 
 		<!-- Style css -->
-		<link rel="stylesheet" href="assets/css/style.css?v=888887" />
+		<link rel="stylesheet" href="assets/css/style.css?v=768768787" />
 
 		<!-- Responsive css -->
 		<link rel="stylesheet" href="assets/css/responsive.css" />
@@ -1079,7 +1079,7 @@
 		<script src="assets/js/plugins/plugins.min.js"></script>
 
 		<!-- Active js -->
-		<script src="assets/js/components.js?v=8888"></script>
+		<script src="assets/js/components.js?v=7687687"></script>
 		<script src="assets/js/active.js?v=2"></script>
 		<script src="assets/js/fouc.js?v=2"></script>
 	</body>

@@ -87,11 +87,11 @@ var footerContent = `
                         </a>
                     </li>
                     <li class="py-3">
-                        <a class="d-flex align-items-center" href="mailto:project@mvfuae.com">
+                        <a class="d-flex align-items-center" href="mailto:info@mvfuae.com">
                             <div class="social-icon si-dark mr-3">
                                 <i class="fas fa-envelope"></i>
                             </div>
-                            <span>project@mvfuae.com</span>
+                            <span>info@mvfuae.com</span>
                         </a>
                     </li>
                 </ul>
